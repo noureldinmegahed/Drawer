@@ -1,0 +1,105 @@
+@font-face{
+  font-family: 'Cairo';
+  src: url("../fonts/Cairo-Regular.ttf")
+}
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Cairo';
+}
+#bodyOfPage{
+  background-color: #ffffff;
+}
+#drawer{
+  width: 75% !important;
+  height: 400px !important;
+  margin-left: 30px;
+  margin-top: 30px;
+  display: inline-block;
+}
+.canvas-container{
+  width: 75% !important;
+  height: 400px;
+  margin-left: 30px;
+  margin-top: 30px;
+  display: inline-block;
+}
+.upper-canvas {
+  width: 75% !important;
+  height: 400px !important;
+  margin-left: 30px;
+  margin-top: 30px;
+  display: inline-block;
+}
+#containerOfData{
+  display: inline-block;
+}
+  /* #drawer{
+    width: 100% !important;
+    height: 170px !important;
+  }
+  .canvas-container{
+    width: 100% !important;
+  }
+  .upper-canvas {
+    width: 100% !important;
+    height: 170px !important;
+  }
+  #dataOfSquare{
+    width: 100%;
+    text-align: center;
+    border: black solid 1px;
+    margin-top: 30px;
+    display: inline-block;
+  }
+  hr{
+    border: black solid 0.5px;
+    text-align: center;
+    width: 200px;
+    font-family: sans-serif;
+    margin: auto;
+  }
+#SquareLengthGroup{
+  width: 25% !important;
+  height: 115px;
+  border: black solid 1px;
+}
+#lengthOfTheSide{
+  border-top: black solid 1px;
+}
+#XundY{
+  width: 50%;
+  height: 115px;
+  border: black solid 1px;
+}
+#SquareLengthGroup,#XundY{
+  display: inline-block !important;
+}
+#XGroup{
+  width: 25%;
+}
+ #XGroup,#YGroup{
+  display: inline-block;
+}
+#locationOfSquareGroup{
+  border-top: black solid 1px;
+}
+@media only screen and (min-width: 507px) {
+  #XundY{
+    position: relative;
+    top: 29px;
+  }
+}
+@media only screen and (max-width: 507px) {
+  #containerOfSquareData{
+    margin-top: 30px;
+  }
+}
+#dataOfRectangle{
+  width: 100%;
+  text-align: center;
+  border: black solid 1px;
+  margin-top: 30px;
+  display: inline-block;
+} */

@@ -33,17 +33,17 @@ var triangle = new fabric.Triangle({
 });
 canvas.add(circle, triangle, square, mostatel , Rectangle);
 var heightOfRectangle,widthOfRectangle;
-setInterval(function () {
-  document.getElementById("lengthOfTheSide").innerText = parseFloat((square.width * square.scaleX) * 0.0264583333).toFixed(2);
-  document.getElementById("X").innerText = square.top;
-  document.getElementById("Y").innerText = square.left;
-}, 1);
+// setInterval(function () {
+//   document.getElementById("lengthOfTheSide").innerText = parseFloat((square.width * square.scaleX) * 0.0264583333).toFixed(2);
+//   document.getElementById("X").innerText = square.top;
+//   document.getElementById("Y").innerText = square.left;
+// }, 1);
 setInterval(function () {
   heightOfRectangle = document.getElementById("height2").innerText = parseFloat((mostatel.height * mostatel.scaleY) * 0.0264583333).toFixed(2);
   widthOfRectangle = document.getElementById("width2").innerText = parseFloat((mostatel.width * mostatel.scaleX) * 0.0264583333).toFixed(2);
   document.getElementById("Msa7aOfMostatel").innerText = parseFloat(widthOfRectangle * heightOfRectangle).toFixed(2)
-  document.getElementById("X2").innerText = mostatel.top;
-  document.getElementById("Y2").innerText = mostatel.left;
+  document.getElementById("X2").innerText = parseFloat(mostatel.top).toFixed(2);
+  document.getElementById("Y2").innerText = parseFloat(mostatel.left).toFixed(2);
 }, 300);
 function submitAnwser(){
     if(widthOfRectangle == "4.24" && heightOfRectangle == "2.12"){

@@ -13,21 +13,21 @@
 }
 #drawer{
   width: 80% !important;
-  height: 350px !important;
+  height: 300px !important;
   margin-left: 30px;
   margin-top: 30px;
   /* display: inline-block; */
 }
 .canvas-container{
   width: 80% !important;
-  height: 350px;
+  height: 300px;
   margin-left: 30px;
   margin-top: 30px;
   display: inline-block;
 }
 .upper-canvas {
   width: 80% !important;
-  height: 350px !important;
+  height: 300px !important;
   margin-left: 30px;
   margin-top: 30px;
   display: inline-block;

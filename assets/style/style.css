@@ -8,34 +8,114 @@
   border: 0;
   font-family: 'Cairo';
 }
+/* interface */
+#container{
+  width: 100%;
+  text-align: center !important;
+}
+#body{
+  background-color: #eeeeee;
+}
+#logo{
+  width: 100px;
+  height: 100px;
+  margin-left: 60px;
+  margin-top: 45px;
+}
+#txtlogo{
+  margin-left: 20px;
+  font-size: 30px;
+  position: relative;
+  top: -30px;
+}
+#logo,#txtlogo{
+  display: inline-block;
+}
+#boxChoose{
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.12), 0 3px 3px rgba(0,0,0,0.24);
+  background-color: #ffffff;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 30%;
+  margin-top: 75px;
+  padding: 50px 0;
+}
+#rectangle,#square{
+  display: inline-block;
+}
+#square,#triangle{
+  display: inline-block;
+}
+#triangle,#circle{
+  display: inline-block;
+}
+#rectangleImg{
+  width: 30px;
+}
+#rectangeltxt{
+  color: #000000;
+}
+#squareImg{
+  width: 30px;
+}
+#squaretxt{
+  color: #000000;
+}
+#triangleImg{
+  width: 30px;
+}
+#triangletxt{
+  color: #000000;
+}
+#circleImg{
+  width: 30px;
+}
+#circletxt{
+  color: #000000;
+}
+#rectangle{
+  padding-right: 10px;
+}
+#square{
+  padding-right: 10px;
+}
+#triangle{
+  padding-right: 10px;
+}
+
+
+
+
+/* rectangle */
 #bodyOfPage{
   background-color: #f5f5f5;
 }
-#drawer{
+#rectangleDrawer{
   width: 80% !important;
-  height: 300px !important;
+  height: auto !important;
   margin-left: 30px;
   margin-top: 30px;
-  /* display: inline-block; */
+  background-color: #ffffff;
 }
 .canvas-container{
   width: 80% !important;
-  height: 300px;
+  height: auto !important;
   margin-left: 30px;
   margin-top: 30px;
   display: inline-block;
 }
 .upper-canvas {
   width: 80% !important;
-  height: 300px !important;
+  height: auto !important;
   margin-left: 30px;
   margin-top: 30px;
   display: inline-block;
 }
-#containerOfCanvas{
+.containerOfCanvas{
   width: 60%;
+  
 }
-#containerOfData{
+.containerOfData{
   width: 39%;
   background-color: #ffffff;
   color: #000000;
@@ -47,9 +127,92 @@
   padding: 20px;
 }
 #dataOfRectangletxt{
-  border-bottom: #000000 solid 2px;
+  border-bottom: #000000 solid 1px;
   padding-bottom: 12px;
 }
+#widthGroup{
+  border-right:black solid 1px;
+  border-left:black solid 1px;
+  border-bottom:black solid 1px;
+  width: 30%;
+}
+#widthtxt{
+  border-right:black solid 1px ;
+  width: 30%;
+}
+#widthNum{
+  width: 69%;
+}
+#widthtxt,#widthNum{
+  display: inline-block;
+}
+#heightGroup{
+  border-right:black solid 1px;
+  border-left:black solid 1px;
+  border-bottom:black solid 1px;
+  width: 30%;
+}
+#heighttxt{
+  border-right:black solid 1px ;
+  width: 30%;
+}
+#heightNum{
+  width: 69%;
+}
+#heighttxt,#heightNum{
+  display: inline-block;
+}
+#areaGroup{
+  border-right:black solid 1px;
+  border-left:black solid 1px;
+  border-bottom:black solid 1px;
+  width: 30%;
+}
+#areatxt{
+  border-right:black solid 1px ;
+  width: 30%;
+}
+#areaNum{
+  width: 69%;
+}
+#areatxt,#areaNum{
+  display: inline-block;
+}
+#XGroup{
+  border-right:black solid 1px;
+  border-left:black solid 1px;
+  border-bottom:black solid 1px;
+  width: 30%;
+}
+#Xtxt{
+  border-right:black solid 1px ;
+  width: 30%;
+}
+#XNum{
+  width: 69%;
+}
+#Xtxt,#XNum{
+  display: inline-block;
+}
+#YGroup{
+  border-right:black solid 1px;
+  border-left:black solid 1px;
+  border-bottom:black solid 1px;
+  width: 30%;
+}
+#Ytxt{
+  border-right:black solid 1px ;
+  width: 30%;
+}
+#YNum{
+  width: 69%;
+}
+#Ytxt,#YNum{
+  display: inline-block;
+}
+
+
+
 #widthOfRectangle{
   border: #000000 solid 2px;
   border-top: 0px;
@@ -78,9 +241,133 @@
   width: 49%;
   font-size: 17px;
 }
-#xundy{
+.xundy{
   margin-top: 20px;
 }
 #q{
   text-align: right;
+}
+
+
+
+
+/* square */
+#squareDrawer{
+  width: 80% !important;
+  height: 300px !important;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+#dataOfSquare{
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.12), 0 3px 3px rgba(0,0,0,0.24);
+  padding: 20px;
+}
+#dataOfSquaretxt{
+  border-bottom: #000000 solid 2px;
+  padding-bottom: 12px;
+}
+#widthOfSquare{
+  border: #000000 solid 2px;
+  border-top: 0px;
+  border-left: 0px;
+  display: inline-block;
+  width: 30%;
+  margin-left: 7px;
+  text-align: center;
+}
+#heightOfSquare{
+  border-top: 0px;
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+}
+#areaOfSquare{
+  border: #000000 solid 2px;
+  border-top: 0px;
+  border-right: 0px;
+  display: inline-block;
+  width: 34%;
+  text-align: center;
+}
+
+
+
+/* triangle*/
+#triangleDrawer{
+  width: 80% !important;
+  height: 300px !important;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+#dataOfTriangle{
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.12), 0 3px 3px rgba(0,0,0,0.24);
+  padding: 20px;
+}
+#dataOfTriangletxt{
+  border-bottom: #000000 solid 2px;
+  padding-bottom: 12px;
+}
+#widthOfTriangle{
+  border: #000000 solid 2px;
+  border-top: 0px;
+  border-left: 0px;
+  display: inline-block;
+  width: 30%;
+  margin-left: 7px;
+  text-align: center;
+}
+#heightOfTriangle{
+  border-top: 0px;
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+}
+#areaOfTriangle{
+  border: #000000 solid 2px;
+  border-top: 0px;
+  border-right: 0px;
+  display: inline-block;
+  width: 34%;
+  text-align: center;
+}
+
+
+
+/* circle */
+#circleDrawer{
+  width: 80% !important;
+  height: 300px !important;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+#dataOfCircle{
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.12), 0 3px 3px rgba(0,0,0,0.24);
+  padding: 20px;
+}
+#dataOfCircletxt{
+  border-bottom: #000000 solid 2px;
+  padding-bottom: 12px;
+}
+#widthOfCircle{
+  border: #000000 solid 2px;
+  border-top: 0px;
+  border-left: 0px;
+  display: inline-block;
+  width: 30%;
+  margin-left: 7px;
+  text-align: center;
+}
+#heightOfCircle{
+  border-top: 0px;
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+}
+#areaOfCircle{
+  border: #000000 solid 2px;
+  border-top: 0px;
+  border-right: 0px;
+  display: inline-block;
+  width: 34%;
+  text-align: center;
 }

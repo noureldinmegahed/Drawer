@@ -1,0 +1,91 @@
+<head>
+<style>
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bgimg {
+  background-image: url(assets/images/background.jpg);
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  font-size: 25px;
+}
+
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -95px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #000000;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+  color: #000000;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+#logotxt{
+  display: inline-block;
+  color: #000000;
+  font-size: 26px;
+  position: relative;
+  top: -35px;
+}
+#button{
+  padding: 4 5px;
+  border-radius: 5px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+}
+#button:hover{
+  background-color: #3b3b3b;
+  color: #ffffff;
+  transition: 0.3s;
+  outline: none;
+}
+</style>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+<div class="bgimg">
+  <div class="topleft">
+    <img id="logo" src="assets/images/shapes.png">
+    <p id="logotxt">painterly</p>
+  </div>
+  <div class="middle">
+    <h1>COMING SOON</h1>
+  <a href="index.html">
+    <button id="button">Step back</button>
+  </a>
+  </div>
+</div>
+
+</body>

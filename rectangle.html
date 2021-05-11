@@ -8,6 +8,7 @@
   
   <body id="bodyOfPage">
     <title>painterly</title>
+    <a href="index.html"><button id="backButton">Back</button></a>
     <div class="containerOfCanvas">
       <canvas id="rectangleDrawer" style="border: black solid 1px; width: 500px;" title="Draw Here"></canvas>
     </div>
@@ -16,35 +17,19 @@
       <div id="dataOfRectangletxt">
         <p style="text-align: center;">Data Of Rectangle</p>
       </div>
+      <div style="display: inline-block; width: 30%; border: black solid 1px ;">
+        <div id="changingData"><p style="width: 100px;">Changing Data</p></div>
         <div id="widthGroup"><div id="widthtxt"><p>Width:</p></div><div id="widthNum"><p id="width2"></p></div></div>
         <div id="heightGroup"><div id="heighttxt"><p>Height:</p></div><div id="heightNum"><p id="height2"></p></div></div>
         <div id="areaGroup"><div id="areatxt"><p>Area:</p></div><div id="areaNum"><p id="rectangleArea"></p></div></div>
         <div id="XGroup"><div id="Xtxt"><p>X:</p></div><div id="XNum"><p id="rectangleX"></p></div></div>
         <div id="YGroup"><div id="Ytxt"><p>Y:</p></div><div id="YNum"><p id="rectangleY"></p></div></div>
-
-      <!-- <div id="widthOfRectangle">
-        <p>width</p>
-        <p id="width2"></p>
       </div>
-      <div id="heightOfRectangle">
-      <p>height</p>
-      <p id="height2"></p>
-    </div>
-    <div id="areaOfRectangle">
-      <p>Rectangle Area</p>
-      <p id="rectangleArea"></p>
-    </div>
-    <div class="xundy">
-    <div id="x">
-      <p>X:<span id="X2"><span></p>
-    </div>
-    <div id="y">    
-      <p>Y:<span id="Y2"></span></p>
-    </div>
-  </div>
-  <div id="q">
-    <p style="color: red;">هل تستطيع تكبير المستطيل للضعف؟</p> -->
-    <button title="قم بتأكيد الإجابة" style="margin-right: 260px;" onclick="submitAnwser()">Check</button>
+      <div style="display: inline-block;">
+        <img id="staticDataOfRect" src="assets/images/staticData.png">
+      </div>
+      <p style="color: red;">Can you enlarge the rectangle to double?</p>
+      <button title="قم بتأكيد الإجابة" style="margin-right: 260px;" onclick="submitAnwser()">Check</button>
     <button onclick="window.location=''">Reset</button>
   </div>
     </div>

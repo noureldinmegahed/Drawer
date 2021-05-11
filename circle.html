@@ -1,47 +1,34 @@
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <script src="assets/script/fabricLibrary.js"></script>
-    <link rel="stylesheet" href="assets/style/style.css">
-    <link rel="shortcut icon" href="assets/images/shapes.png">
-  </head>
-  
-  <body id="bodyOfPage">
-    <title>painterly</title>
-    <div class="containerOfCanvas">
-      <canvas id="circleDrawer" style="border: black solid 1px; width: 500px;" title="Draw Here"></canvas>
-    </div>
-    <div class="containerOfData">
-    <div id="dataOfCircle">
-      <div id="dataOfCircletxt">
-        <p style="text-align: center;">Data Of Circle</p>
-      </div>
-      <div id="widthOfCircle">
-        <p>width</p>
-        <p id="width2"></p>
-      </div>
-      <div id="heightOfCircle">
-      <p>height</p>
-      <p id="height2"></p>
-    </div>
-    <div id="areaOfCircle">
-      <p>Circle Area</p>
-      <p id="Msa7aOfMostatel"></p>
-    </div>
-    <div class="xundy">
-    <div id="x">
-      <p>X:<span id="X2"><span></p>
-    </div>
-    <div id="y">    
-      <p>Y:<span id="Y2"></span></p>
-    </div>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <script src="assets/script/fabricLibrary.js"></script>
+  <link rel="stylesheet" href="assets/style/style.css">
+  <link rel="shortcut icon" href="assets/images/shapes.png">
+</head>
+
+<body id="bodyOfPage">
+  <title>painterly</title>
+  <a href="index.html"><button id="backButton">Back</button></a>
+  <div class="containerOfCanvas">
+    <canvas id="circleDrawer" style="border: black solid 1px; width: 500px;" title="Draw Here"></canvas>
   </div>
-  <div id="q">
-    <p style="color: red;">هل تستطيع تكبير المستطيل للضعف؟</p>
-    <button title="قم بتأكيد الإجابة" style="margin-right: 260px;" onclick="submitAnwser()">Submit</button>
-    <button onclick="window.location=''">Reset</button>
+  <div class="containerOfData">
+  <div id="dataOfcircle">
+    <div id="dataOfcircletxt">
+      <p style="text-align: center;">Data Of circle</p>
+    </div>
+    <div style="display: inline-block; width: 30%; border: black solid 1px ;">
+      <div id="changingData"><p style="width: 100px;">Static Data</p></div>
+      <div id="DiameterGroup"><div id="Diametertxt"><p>Diameter:</p></div><div id="Diameter"><p id="DiameterNum"></p></div></div>
+      <div id="XGroup"><div id="Xtxt"><p>X:</p></div><div id="XNum"><p id="X3"></p></div></div>
+      <div id="YGroup"><div id="Ytxt"><p>Y:</p></div><div id="YNum"><p id="Y3"></p></div></div>
+    </div>
+    <div style="display: inline-block;">
+      <img id="staticDataOfcircle" src="assets/images/staticDataCircle.png">
+    </div>
+  <button onclick="window.location=''">Reset</button>
+</div>
   </div>
-    </div>
-    </div>
-    <script src="assets/script/script.js"></script>
-  </body>
+  </div>
+  <script src="assets/script/script.js"></script>
+</body>
